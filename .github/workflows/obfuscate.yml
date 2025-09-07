@@ -33,7 +33,7 @@ jobs:
       
       - name: Clone edgetunnel wrangler
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/cmliu/edgetunnel/refs/heads/main/wrangler.toml
+          wget -O wrangler.toml https://raw.githubusercontent.com/cmliu/edgetunnel/refs/heads/main/wrangler.toml
       
       - name: Obfuscate edgetunnel worker js
         run: |
